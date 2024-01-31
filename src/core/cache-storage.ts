@@ -126,6 +126,7 @@ export class Cache {
             throw new Error('No proxy defined');
         }
 
+        console.log('')
         const key = src.substring(0, 256);
 
         return new Promise((resolve, reject) => {
